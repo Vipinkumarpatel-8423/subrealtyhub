@@ -132,3 +132,50 @@ button {
     animation: none;
   }
 }
+
+
+.about-rotating-text {
+  animation: aboutRotate 14s linear infinite;
+}
+
+@keyframes aboutRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.who-we-are-images.is-hidden {
+  opacity: 0;
+  transform: translateX(-70px) rotate(-8deg);
+}
+
+.who-we-are-images.is-visible {
+  animation: whoImageRotateIn 1.2s ease-out both;
+}
+
+@keyframes whoImageRotateIn {
+  from {
+    opacity: 0;
+    transform: translateX(-70px) rotate(-8deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .who-we-are-images.is-hidden,
+  .who-we-are-images.is-visible {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}

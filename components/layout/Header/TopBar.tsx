@@ -11,6 +11,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FiMapPin } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
 
 import Link from "next/link";
 
@@ -71,7 +72,8 @@ export default function TopBar() {
 
           <div className="flex items-center gap-3">
             <Link
-              href="#"
+              href="https://www.facebook.com/envato/"
+              target="_blank"
               aria-label="Facebook"
               className="text-white/80 transition-colors duration-200 hover:text-accent"
             >
@@ -79,7 +81,8 @@ export default function TopBar() {
             </Link>
 
             <Link
-              href="#"
+              href="https://x.com/envato/"
+              target="_blank"
               aria-label="Twitter"
               className="text-white/80 transition-colors duration-200 hover:text-accent"
             >
@@ -87,20 +90,22 @@ export default function TopBar() {
             </Link>
 
             <Link
-              href="#"
+              href="https://www.instagram.com/envato/"
+              target="_blank"
               aria-label="Instagram"
               className="text-white/80 transition-colors duration-200 hover:text-accent"
             >
               <FaInstagram size={14} />
             </Link>
 
-            {/* <Link
-              href="#"
+            <Link
+              href="https://in.pinterest.com/envato/"
+              target="_blank"
               aria-label="Pinterest"
               className="text-white/80 transition-colors duration-200 hover:text-accent"
             >
-              <Pinterest size={14} fill="currentColor" />
-            </Link> */}
+              <FaPinterest size={14} fill="currentColor" />
+            </Link>
           </div>
         </div>
       </div>

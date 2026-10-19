@@ -5,27 +5,27 @@ import Link from "next/link";
 const dholeraItems = [
   {
     title: "Dholera Special Investment Region",
-    href: "/dholera-special-investment-region/",
+    href: "/dholera/smart-industrial-investment-destination/",
   },
   {
     title: "Residential Plot in Dholera SIR",
-    href: "/residential-plot-in-dholera-sir/",
+    href: "/dholera/premium-residential-plot-dholera-smart-city/",
   },
   {
     title: "Master Plan & Investment Opportunity",
-    href: "/master-plan-investment-opportunity/",
+    href: "/dholera/master-plan-investment-opportunity/",
   },
   {
     title: "India’s Future Investment Destination",
-    href: "/future-investment-destination/",
+    href: "/dholera/future-investment-destination/",
   },
   {
     title: "Multipurpose NA Plot on Expressway",
-    href: "/multipurpose-na-plot-expressway/",
+    href: "/dholera/multipurpose-na-plot-expressway/",
   },
   {
     title: "Premium Residential Plots in Dholera Smart City",
-    href: "/premium-residential-plots/",
+    href: "/dholera/premium-commercial-plot-dholera-smart-city/",
   },
 ];
 
@@ -33,11 +33,11 @@ export default function DholeraDropdown() {
   return (
     <div className="invisible absolute left-1/2 top-full z-[100] w-[330px] -translate-x-1/2 translate-y-2 rounded-b-xl border border-gray-200 bg-white opacity-0 shadow-xl transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
       
-      <div className="border-b border-gray-100 px-5 py-4">
+      {/* <div className="border-b border-gray-100 px-5 py-4">
         <p className="text-xs font-semibold uppercase tracking-[2px] text-accent">
           Dholera Projects
         </p>
-      </div>
+      </div> */}
 
       <div className="py-2">
         {dholeraItems.map((item) => (

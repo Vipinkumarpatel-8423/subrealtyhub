@@ -14,27 +14,27 @@ export const navigation = [
     children: [
       {
         title: "Dholera Special Investment Region",
-        href: "/dholera-special-investment-region/",
+        href: "/dholera/smart-industrial-investment-destination/",
       },
       {
         title: "Residential Plot in Dholera SIR",
-        href: "/residential-plot-in-dholera-sir/",
+        href: "/dholera/residential-plot-in-dholera-sir/",
       },
       {
         title: "Master Plan & Investment Opportunity",
-        href: "/master-plan-investment-opportunity/",
+        href: "/dholera/master-plan-investment-opportunity/",
       },
       {
         title: "India’s Future Investment Destination",
-        href: "/future-investment-destination/",
+        href: "/dholera/future-investment-destination/",
       },
       {
         title: "Multipurpose NA Plot on Expressway",
-        href: "/multipurpose-na-plot-expressway/",
+        href: "/dholera/multipurpose-na-plot-expressway/",
       },
       {
         title: "Premium Residential Plots in Dholera Smart City",
-        href: "/premium-residential-plots/",
+        href: "/dholera/premium-commercial-plot-dholera-smart-city/",
       },
     ],
   },

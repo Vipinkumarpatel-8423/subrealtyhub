@@ -17,7 +17,7 @@ const navItems = [
   },
   {
     label: "Dholera Projects",
-    href: "/dholera-special-investment-region/",
+    href: "/dholera-projects/",
     dropdown: true,
   },
   {

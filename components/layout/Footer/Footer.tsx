@@ -23,6 +23,7 @@ import { FaTwitter } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { FaChevronRight } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -152,7 +153,8 @@ export default function Footer() {
               </span>
 
               <a
-                href="#"
+                href="https://www.facebook.com/envato/"
+                target="_blank"
                 aria-label="Facebook"
                 className="text-white/80 transition-colors duration-300 hover:text-accent"
               >
@@ -160,7 +162,8 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/envato/"
+                target="_blank"
                 aria-label="Instagram"
                 className="text-white/80 transition-colors duration-300 hover:text-accent"
               >
@@ -168,20 +171,22 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
-                aria-label="WhatsApp"
+                href="https://x.com/envato/"
+                target="_blank"
+                aria-label="Twitter"
                 className="text-white/80 transition-colors duration-300 hover:text-accent"
               >
                 <FaTwitter size={18} />
               </a>
 
-              {/* <a
-                href="#"
-                aria-label="LinkedIn"
+              <a
+                href="https://in.pinterest.com/envato/"
+                target="_blank"
+                aria-label="Pinterest"
                 className="text-white/80 transition-colors duration-300 hover:text-accent"
               >
-                <Linkedin size={18} fill="currentColor" />
-              </a> */}
+                <FaPinterest size={18} fill="currentColor" />
+              </a> 
             </div>
           </div>
 

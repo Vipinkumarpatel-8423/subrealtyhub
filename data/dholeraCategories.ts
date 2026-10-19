@@ -19,7 +19,7 @@ export const dholeraCategories: DholeraCategory[] = [
   {
     id: 1,
     title: "Dholera SIR",
-    slug: "dholera-sir",
+    slug: "smart-industrial-investment-destination",
     icon: Building2,
     description:
       "Explore Dholera Special Investment Region and its growing infrastructure opportunities.",
@@ -27,7 +27,7 @@ export const dholeraCategories: DholeraCategory[] = [
   {
     id: 2,
     title: "Commercial",
-    slug: "commercial",
+    slug: "premium-commercial-plot-dholera-smart-city",
     icon: Store,
     description:
       "Discover commercial property and investment opportunities in Dholera.",
@@ -35,7 +35,7 @@ export const dholeraCategories: DholeraCategory[] = [
   {
     id: 3,
     title: "Investment",
-    slug: "investment",
+    slug: "master-plan-investment-opportunity",
     icon: TrendingUp,
     description:
       "Explore real estate investment opportunities and future growth potential.",
@@ -43,7 +43,7 @@ export const dholeraCategories: DholeraCategory[] = [
   {
     id: 4,
     title: "Expressway",
-    slug: "expressway",
+    slug: "multipurpose-na-plot-expressway",
     icon: Route,
     description:
       "Explore strategically located properties connected with major expressway infrastructure.",
@@ -51,7 +51,7 @@ export const dholeraCategories: DholeraCategory[] = [
   {
     id: 5,
     title: "Smart City",
-    slug: "smart-city",
+    slug: "premium-residential-plot-dholera-smart-city",
     icon: Landmark,
     description:
       "Discover residential and commercial opportunities around Dholera Smart City.",

@@ -13,27 +13,27 @@ interface MobileMenuProps {
 const dholeraItems = [
   {
     title: "Dholera Special Investment Region",
-    href: "/dholera-special-investment-region/",
+    href: "dholera/smart-industrial-investment-destination/",
   },
   {
     title: "Residential Plot in Dholera SIR",
-    href: "/residential-plot-in-dholera-sir/",
+    href: "/dholera/premium-residential-plot-dholera-smart-city/",
   },
   {
     title: "Master Plan & Investment Opportunity",
-    href: "/master-plan-investment-opportunity/",
+    href: "/dholera/master-plan-investment-opportunity/",
   },
   {
     title: "India’s Future Investment Destination",
-    href: "/future-investment-destination/",
+    href: "/dholera/future-investment-destination/",
   },
   {
     title: "Multipurpose NA Plot on Expressway",
-    href: "/multipurpose-na-plot-expressway/",
+    href: "/dholera/multipurpose-na-plot-expressway/",
   },
   {
     title: "Premium Residential Plots in Dholera Smart City",
-    href: "/premium-residential-plots/",
+    href: "/dholera/premium-commercial-plot-dholera-smart-city/",
   },
 ];
 
@@ -140,11 +140,11 @@ export default function MobileMenu({
             <div className="border-b border-gray-200">
               <div className="flex items-center justify-between">
                 <Link
-                  href="/dholera-special-investment-region/"
+                  href="/dholera-projects/"
                   onClick={onClose}
                   className={`flex min-h-[41px] flex-1 items-center text-[14px] font-medium transition-colors duration-200 ${
                     pathname.startsWith(
-                      "/dholera-special-investment-region/"
+                      "/dholera-projects/"
                     )
                       ? "text-accent"
                       : "text-brand hover:text-accent"
